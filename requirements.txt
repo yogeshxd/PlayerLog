@@ -1,0 +1,5 @@
+discord
+discord.ext
+discord.utils
+sqlite3
+requests
