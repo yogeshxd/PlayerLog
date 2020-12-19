@@ -34,7 +34,6 @@ class auto(commands.Cog):
                 pl = f"[{i['id']}] {i['name']}"
                 cit = cit+pl+'\n'
             temp=discord.Embed(title=f"Connected Players - {connected}", description=cit, color=random.randint(0, 0xffffff))
-            temp.set_footer(text="Xtreme India", icon_url="https://cdn.discordapp.com/attachments/710804221410410616/749240202962141244/xirp-new.png")
             msg = await channel.send(embed=temp)
         except:
             print("Incorrect IP or server is not responding.", nurl)
