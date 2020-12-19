@@ -4,7 +4,7 @@ import time
 import os
 import random
 
-bot = commands.Bot(command_prefix=['xirp '])
+bot = commands.Bot(command_prefix=['-'])
 bot.remove_command('help')
 #initial_extensions = ['cogs.status', 'cogs.leaderboard', 'cogs.auto']
 initial_extensions = ['cogs.status', 'cogs.auto']
