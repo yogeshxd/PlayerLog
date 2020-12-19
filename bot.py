@@ -29,7 +29,7 @@ async def reload(ctx, extension):
 @bot.command(hidden=True)
 async def activity(ctx, arg, arg2, arg3=None):
     author = ctx.message.author
-    if author.id == 626811868249325578:
+    if author.id == Your_dscord_d:
         if arg == 'playing':
             await bot.change_presence(activity=discord.Game(name=arg2))
         elif arg == 'streaming':
@@ -44,4 +44,4 @@ async def activity(ctx, arg, arg2, arg3=None):
     else:
         msg = await ctx.send('Fuck off. You are not authorized', delete_after=10)
 
-bot.run('NzQ5MjYzNTkyMTc1Njk3OTUw.X0pcGQ.KUP8ydazXSo7sSy4oallfHSXFC4', bot=True, reconnect = True)
+bot.run('Your_Bot_Token', bot=True, reconnect = True)
