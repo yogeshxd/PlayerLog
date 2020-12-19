@@ -22,7 +22,7 @@ class auto(commands.Cog):
             url = ip.readlines()
             nurl = str(url[0])[2:len(url[0])+2]
             ip.close
-        channel = self.bot.get_channel(756553574002982972)
+        channel = self.bot.get_channel(discrd_channel_id)
         try:
             i = requests.get(f"{nurl}info.json")
             inf = i.json()
