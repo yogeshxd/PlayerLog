@@ -27,7 +27,7 @@ class Logs(commands.Cog):
             c.execute("SELECT * FROM logs WHERE ID=?", (player_id,))
             return c.fetchone()
 
-    @commands.command(brief = 'xirp profile', description = 'Returns your score with current rank...')
+    @commands.command(brief = '-profile', description = 'Returns your score with current rank...')
     async def profile(self, ctx):
         try:
             data = get_data(ctx.author.id)
