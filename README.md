@@ -1,0 +1,17 @@
+# FiveM-PlayerLog-Bot
+
+This is a discord bot that keeps a track of every player on your fivem server.... You might need to do a few tweeks to make it work.
+
+1. Add a bot token in bot.py first
+2. After running this bot run IP command to give it your ip
+3. Your bot will be good to go
+
+**THis resp is still under devlopment and some code you might thinkis crap may be used in future**
+
+Contact me for any help:
+
+[Instaagram](https://www.instagram.com/___y.o.g.e.s.h_/)
+
+Discord - DuB#4186
+
+**Be free to drop any complains or complements**
