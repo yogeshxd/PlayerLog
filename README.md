@@ -11,7 +11,7 @@ This is a discord bot that keeps a track of every player on your fivem server...
 
 Contact me for any help:
 
-[Instaagram](https://www.instagram.com/___y.o.g.e.s.h_/)
+[Instaagram](https://www.instagram.com/yogesh_.xd/)
 
 Discord - DuB#4186
 
