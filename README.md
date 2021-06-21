@@ -13,6 +13,6 @@ Contact me for any help:
 
 [Instaagram](https://www.instagram.com/yogesh_.xd/)
 
-Discord - DuB#4186
+Discord - DuB#0069
 
 **Be free to drop any complains or complements**
