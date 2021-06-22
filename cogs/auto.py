@@ -15,7 +15,7 @@ class auto(commands.Cog, name='auto'):
     def cog_unload(self):
         self.printer.cancel()
 
-    @tasks.loop(minutes=1.0)
+    @tasks.loop(minutes=10.0)
     async def auto(self):
         cit = ''
         with open('ip.txt', 'rb') as ip:
