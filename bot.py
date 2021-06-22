@@ -30,6 +30,8 @@ async def on_message(message):
         if len(message.attachments) == 0:
             await message.delete()
             await message.channel.send("```You can't chat in screenshot channel...```", delete_after=10)
+    else:
+        await bot.process_commands(message)
 
 @bot.command(hidden=True)
 async def reload(ctx, extension):
